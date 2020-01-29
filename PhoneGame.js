@@ -1,6 +1,7 @@
 /*
 Easter egg feature - this game is a recreation of my first text adventure which was made in August 2013
 It can be found by clicking on the Emergency Dump Tanks and using your phone to play games.
+(This was the 6 - 8 if statement text adventure you asked for - pretty sure there are 205)
 */
 var gold;
 var bankBalance;

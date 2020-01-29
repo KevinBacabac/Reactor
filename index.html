@@ -2,18 +2,30 @@
 <head>
 <title>Elemental</title>
 
+  <!-- Libraries -->
+  <script src="libraries/buttons.js" type="text/javascript"></script>
+  <script src="libraries/random.js" type="text/javascript"></script>
+  <script src="libraries/rect.js" type="text/javascript"></script>
 
-<!-- Jquery Code Stuff to make our Javascript have all the code libraries etc that it needs to run -->
+  <script src="modules/explosions.js" type="text/javascript"></script>
+  <script src="modules/upgrades.js" type="text/javascript"></script>
 
-  <script src="jquery.min.js" type="text/javascript"></script> 	<!-- Thanks Google -->
-  <script src="jquery-ui.min.js" type="text/javascript"></script> 	<!-- Thanks Google -->
+  <!-- Levels -->
+  <script src="levels/corrosion/classes.js" type="text/javascript"></script>
+  <script src="levels/corrosion/logic.js" type="text/javascript"></script>
+
+  <script src="levels/processing/classes.js" type="text/javascript"></script>
+  <script src="levels/processing/logic.js" type="text/javascript"></script>
+
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="jquery-ui.min.js" type="text/javascript"></script>
   <script src="PhoneGame.js" type="text/javascript"></script>
   <script src="library.js" type="text/javascript"></script>
-  <script src="CodeTemplate.js" type="text/javascript"></script>	<!--This is where our code comes in, we write it in CodeTemplate.js-->
+  <script src="Elemental.js" type="text/javascript" defer></script>
   <link rel="stylesheet" href="jquery-ui.min.css" />
   <style>
   canvas {
-          position: absolute;
+    position: absolute;
 	  top: 0;
 	  left: 0;
   }
@@ -35,10 +47,10 @@
     src: url('fonts/Inconsolata.otf');
 }
   </style>
-  
+
 </head>
 
-<body align='center' bgcolor='#000000'>		
+<body align='center' bgcolor='#000000'>
   <canvas id="canvas" width="1024" height="768"></canvas>
 </body>
 </html>
