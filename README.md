@@ -1,4 +1,4 @@
-# [Reactor](kevinbacabac.github.io/Reactor)
+# [Reactor](https://kevinbacabac.github.io/Reactor)
 Control a nuclear reactor through an action based set of minigames. Each section of the reactor must be fully automated by purchasing upgrades from various countries in order to progress.
 ![alt tag](https://github.com/KevinBacabac/Reactor/raw/master/screenshots/parts.png)
 
